@@ -1,0 +1,15 @@
+body {
+  font-size: 14px;
+  background-color: $light;
+  height: auto;
+  min-height: 100%;
+}
+
+.has-navbar-fixed-top {
+  padding-top: 52px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}

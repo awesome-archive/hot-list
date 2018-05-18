@@ -1,0 +1,17 @@
+.b-list {
+  background-color: white;
+
+  .ant-tag {
+    margin-right: 0;
+  }
+
+  .ant-list-item {
+    a {
+      color: $black;
+
+      &:visited {
+        color: hsl(0, 0%, 50%);
+      }
+    }
+  }
+}
