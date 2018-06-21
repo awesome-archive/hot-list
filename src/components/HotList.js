@@ -34,7 +34,7 @@ class HotList extends Component {
                 title={
                   <div>
                     <span>{`${index + 1}.`}&nbsp;</span>
-                    <a href={item.url}>{item.title}</a>
+                    <a href={item.url} target="_blank">{item.title}</a>
                   </div>
                 }
                 description={item.summary}
